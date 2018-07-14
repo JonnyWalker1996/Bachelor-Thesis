@@ -8,7 +8,8 @@
 \contentsline {chapter}{\numberline {3}Analyse}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Anforderungen}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}Existierende L\IeC {\"o}sungsans\IeC {\"a}tze}{5}{section.3.2}
-\contentsline {section}{\numberline {3.3}Weiterer Abschnitt}{5}{section.3.3}
+\contentsline {section}{\numberline {3.3}Analyse des Frameworks}{5}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Build-System}{5}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Zusammenfassung}{7}{section.3.4}
 \contentsline {chapter}{\numberline {4}Entwurf}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Abschnitt 1}{9}{section.4.1}

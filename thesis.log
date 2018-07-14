@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.8)  8 JUL 2018 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.8)  8 JUL 2018 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -850,27 +850,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
  3.
 
-Package natbib Warning: Citation `TB2000' on page 5 undefined on input line 39.
+Package natbib Warning: Citation `TB2000' on page 5 undefined on input line 44.
 
 
 
-Package natbib Warning: Citation `TB98' on page 5 undefined on input line 40.
+Package natbib Warning: Citation `TB98' on page 5 undefined on input line 45.
 
 
-Package natbib Warning: Citation `JSAC96' on page 5 undefined on input line 40.
+Package natbib Warning: Citation `JSAC96' on page 5 undefined on input line 45.
 
 
 
-Package natbib Warning: Citation `qosr' on page 5 undefined on input line 40.
+Package natbib Warning: Citation `qosr' on page 5 undefined on input line 45.
 
 
-LaTeX Warning: Reference `fig:test' on page 5 undefined on input line 41.
+LaTeX Warning: Reference `fig:test' on page 5 undefined on input line 46.
 
 
-LaTeX Warning: Reference `fig:test' on page 5 undefined on input line 41.
+LaTeX Warning: Reference `fig:test' on page 5 undefined on input line 46.
 
 [5]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 95.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 100.
+
  (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 ) [6]) [7]
@@ -937,7 +938,7 @@ Package rerunfilecheck Warning: File `thesis.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  078F9ECDFC51011FE2C7688692E4998D;1507.
+(rerunfilecheck)             After:  EC9E23EEBCB09C1B09CD9271CC055EFF;1583.
 
 LaTeX Warning: There were undefined references.
 
@@ -947,13 +948,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 7133 strings out of 494923
- 100115 string characters out of 6180743
+ 7140 strings out of 494923
+ 100238 string characters out of 6180743
  185410 words of memory out of 5000000
- 10223 multiletter control sequences out of 15000+600000
- 34519 words of font info for 64 fonts, out of 8000000 for 9000
+ 10226 multiletter control sequences out of 15000+600000
+ 38549 words of font info for 69 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,11n,45p,285b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,45p,285b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texli
@@ -961,10 +962,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (24 pages, 114971 bytes).
+Output written on thesis.pdf (24 pages, 115681 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 52 named destinations out of 1000 (max. 500000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,7 @@
+- Schnittstelle enp0s3 über zclient hinzufügen (wie in ripd)
+- über logging informieren (notfalls printf)
+- optional IDE aufsetzen
+- bei Problemen sofort fragen!
+
+- Mininet Testfall mit zwei Routern mit installiertem Daemon schreiben
+

@@ -1,0 +1,33 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define to 1 if you have the `/home/osboxes/frr' library
+   (-l/home/osboxes/frr). */
+#undef HAVE_LIB_HOME_OSBOXES_FRR
+
+/* Define to 1 if you have the `/home/osboxes/frr/lib' library
+   (-l/home/osboxes/frr/lib). */
+#undef HAVE_LIB_HOME_OSBOXES_FRR_LIB
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Version number of package */
+#undef VERSION
