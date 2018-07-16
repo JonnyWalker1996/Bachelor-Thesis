@@ -69,7 +69,7 @@ static struct frr_daemon_info ripd_di;
 static void sighup(void)
 {
 	zlog_info("SIGHUP received");
-	zlog_info("ripd restarting!");
+	zlog_info("my_daemon restarting!");
 
 	/* Reload config file. */
 	vty_read_config(ripd_di.config_file, config_default);
@@ -113,7 +113,7 @@ static struct quagga_signal_t ripd_signals[] = {
 
 FRR_DAEMON_INFO(ripd, RIP, .vty_port = 1234,
 
-		.proghelp = "Implementation of the RIP routing protocol.",
+		.proghelp = "Implementation of my own routing protocol.",
 
 		.signals = ripd_signals, .n_signals = array_size(ripd_signals),
 
@@ -127,6 +127,8 @@ CPP_NOTICE("-r / --retain has reached deprecation EOL, remove")
 /* Main routine of ripd. */
 int main(int argc, char **argv)
 {
+	fprintf(stderr, "To be displayed before frr_preinit");
+	fflush(stderr);
 	frr_preinit(&ripd_di, argc, argv);
 
 	frr_opt_add("" DEPRECATED_OPTIONS, longopts, "");
@@ -162,10 +164,9 @@ int main(int argc, char **argv)
 	/* Library initialization. */
 	keychain_init();
 	vrf_init(NULL, NULL, NULL, NULL);
-
 	frr_config_fork();
 	frr_run(master);
-
+	printf("To be displayed after frr_run");
 	/* Not reached. */
 	return (0);
 }

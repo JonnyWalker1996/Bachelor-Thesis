@@ -194,9 +194,6 @@ struct rip_info {
 	/* Sub type. */
 	int sub_type;
 
-	/* RIP nexthop. */
-	struct nexthop nh;
-	struct in_addr from;
 
 	/* Metric of this route. */
 	uint32_t metric;
